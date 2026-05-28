@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *" 
   workflow_dispatch: 
 
+# Tell GitHub to go ahead and use the new Node 24 engine for its actions
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
