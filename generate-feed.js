@@ -43,6 +43,10 @@ async function generateThreatFeed() {
               
               // Extract the affected versions (if available)
               const versions = affectedItem.versions || [];
+
+              if (versions.length === 0) {
+                return; // Skips to the next affected item
+              }
               
               // Push the clean record to our catalog
               catalog.entries.push({
