@@ -1,79 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "last_updated": "2026-05-28T13:59:42.837Z",
+  "last_updated": "2026-05-28T14:54:01.293Z",
   "entries": [
-    {
-      "id": "GHSA-226w-6hhj-69hp",
-      "package": "cal_rd",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in cal_rd",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-232v-j27c-5pp6",
-      "package": "@mcpjam/inspector",
-      "ecosystem": "npm",
-      "summary": "REC in MCPJam inspector due to HTTP Endpoint exposes",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-248r-7h7q-cr24",
-      "package": "vm2",
-      "ecosystem": "npm",
-      "summary": "vm2 Has a Sandbox Breakout Using Async Generator",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-255r-pghp-r5wh",
-      "package": "hdeky",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in hdeky",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2563-83p7-f34p",
-      "package": "requestt",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in requestt",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2598-2f59-rmhq",
-      "package": "sequelize",
-      "ecosystem": "npm",
-      "summary": "SQL Injection in sequelize",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-25mx-2mxm-6343",
-      "package": "@keystone-6/core",
-      "ecosystem": "npm",
-      "summary": "@keystone-6/core's NODE_ENV defaults to development with esbuild",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2733-6c58-pf27",
-      "package": "deephas",
-      "ecosystem": "npm",
-      "summary": "deepHas vulnerable to Prototype Pollution via constructor.prototype",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-277p-xwpp-3jf7",
-      "package": "rrgod",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in rrgod",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
     {
       "id": "GHSA-27f5-xjrr-q9ff",
       "package": "@opensearch-project/opensearch",
@@ -115,38 +43,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-27fj-mc8w-j9wg",
-      "package": "jsrsasign",
-      "ecosystem": "npm",
-      "summary": "RSA signature validation vulnerability on maleable encoded message in jsrsasign",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-27m7-ffhq-jqrm",
-      "package": "mcp-watch",
-      "ecosystem": "npm",
-      "summary": "MCP Watch has a Critical Command Injection in cloneRepo allows Remote Code Execution (RCE) via malicious URL",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2877-693q-pj33",
-      "package": "genieacs",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in GenieACS",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-28f4-mjfq-qrvf",
-      "package": "buffes-xor",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffes-xor",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-28f8-hqmc-7ph8",
       "package": "ember-power-timepicker",
       "ecosystem": "npm",
@@ -154,14 +50,6 @@
       "versions": [
         "1.0.8"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-28xh-wpgr-7fm8",
-      "package": "open",
-      "ecosystem": "npm",
-      "summary": "Command Injection in open",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -175,22 +63,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-29fh-xcjr-p7rx",
-      "package": "web3-eht",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in web3-eht",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-29xr-v42j-r956",
-      "package": "thenify",
-      "ecosystem": "npm",
-      "summary": "thenify before 3.3.1 made use of unsafe calls to `eval`.",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-29xr-v42j-r956",
       "package": "org.webjars.npm:thenify",
       "ecosystem": "Maven",
@@ -199,126 +71,6 @@
         "3.1.0",
         "3.3.0"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2c29-wc65-4cx9",
-      "package": "linux-cmdline",
-      "ecosystem": "npm",
-      "summary": "linux-cmdline is vulnerable to Prototype Pollution via the constructor",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2c4m-g7rx-63q7",
-      "package": "set-in",
-      "ecosystem": "npm",
-      "summary": "set-in Affected by Prototype Pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2c83-wfv3-q25f",
-      "package": "rebber",
-      "ecosystem": "npm",
-      "summary": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in ZMarkdown",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2cjm-2gwv-m892",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2cjm-2gwv-m892",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2fwq-wx47-hm6x",
-      "package": "bcion",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bcion",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2gc6-2h2g-ph48",
-      "package": "Rambox",
-      "ecosystem": "npm",
-      "summary": "Rambox RCE Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2gg9-6p7w-6cpj",
-      "package": "@nyariv/sandboxjs",
-      "ecosystem": "npm",
-      "summary": "SandboxJS: Sandbox integrity escape ",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2gqw-q9r9-7f79",
-      "package": "changeset",
-      "ecosystem": "npm",
-      "summary": "Changeset vulnerable to prototype pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2h3x-95c6-885r",
-      "package": "river-mock",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in river-mock",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2h87-4q2w-v4hf",
-      "package": "@strapi/plugin-users-permissions",
-      "ecosystem": "npm",
-      "summary": "Strapi plugins vulnerable to Server-Side Template Injection and Remote Code Execution in the Users-Permissions Plugin",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2h87-4q2w-v4hf",
-      "package": "@strapi/plugin-email",
-      "ecosystem": "npm",
-      "summary": "Strapi plugins vulnerable to Server-Side Template Injection and Remote Code Execution in the Users-Permissions Plugin",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2hqf-qqmq-pgpp",
-      "package": "commander-js",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in commander-js",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2j2x-2gpw-g8fm",
-      "package": "flat",
-      "ecosystem": "npm",
-      "summary": "flat vulnerable to Prototype Pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2j2x-2gpw-g8fm",
-      "package": "flat",
-      "ecosystem": "npm",
-      "summary": "flat vulnerable to Prototype Pollution",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -336,41 +88,9 @@
       "package": "flat",
       "ecosystem": "npm",
       "summary": "flat vulnerable to Prototype Pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2j2x-2gpw-g8fm",
-      "package": "flat",
-      "ecosystem": "npm",
-      "summary": "flat vulnerable to Prototype Pollution",
       "versions": [
         "5.0.0"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2jjq-x548-rhpv",
-      "package": "isolated-vm",
-      "ecosystem": "npm",
-      "summary": "isolated-vm has vulnerable CachedDataOptions in API",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2jm5-2cqf-6vw9",
-      "package": "baes-x",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in baes-x",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2mxc-m4c3-wqhq",
-      "package": "ruffer-xor",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in ruffer-xor",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -384,14 +104,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-2p99-6f47-8x9j",
-      "package": "asnc",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in asnc",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-2q6w-rxf3-4wc9",
       "package": "codify",
       "ecosystem": "npm",
@@ -402,14 +114,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-2r8f-2665-3gxq",
-      "package": "froever",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in froever",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-2vqq-jgxx-fxjc",
       "package": "motiv.scss",
       "ecosystem": "npm",
@@ -417,54 +121,6 @@
       "versions": [
         "0.4.20"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2vv2-3x8x-4gv7",
-      "package": "flowise",
-      "ecosystem": "npm",
-      "summary": "Flowise OS command remote code execution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2w3f-9w3q-qw77",
-      "package": "config-handler",
-      "ecosystem": "npm",
-      "summary": "Prototype Pollution in config-handler",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2w6w-674q-4c4q",
-      "package": "handlebars",
-      "ecosystem": "npm",
-      "summary": "Handlebars.js has JavaScript Injection via AST Type Confusion",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2w8g-m5j8-7m87",
-      "package": "@soketi/soketi",
-      "ecosystem": "npm",
-      "summary": "Zalgo-like output that crashes the server",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2w8q-69fh-9gq6",
-      "package": "bufger-xor",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bufger-xor",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-2xp3-57p7-qf4v",
-      "package": "xml-crypto",
-      "ecosystem": "npm",
-      "summary": "xml-crypto vulnerable to XML signature verification bypass due improper verification of signature/signature spoofing",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -488,86 +144,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-322m-p39j-r5m2",
-      "package": "npm-script-demo",
-      "ecosystem": "npm",
-      "summary": "npm-script-demo is malware",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3269-x4pw-vffg",
-      "package": "diskusage-ng",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in diskusage-ng",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-327c-qx3v-h673",
-      "package": "hermes-engine",
-      "ecosystem": "npm",
-      "summary": "Always-Incorrect Control Flow Implementation in Facebook Hermes",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-32cc-x95p-fxcg",
-      "package": "fuxa-server",
-      "ecosystem": "npm",
-      "summary": "FUXA Unauthenticated Remote Code Execution via Hardcoded JWT Secret in Default Configuration",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-32fw-9wq8-9x9c",
-      "package": "node-latex-pdf",
-      "ecosystem": "npm",
-      "summary": "node-latex-pdf is susceptible to command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-32r3-57hp-cgfw",
-      "package": "@evershop/evershop",
-      "ecosystem": "npm",
-      "summary": "EverShop at risk to unauthorized access via weak HMAC secret",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-333x-qr3v-g4xx",
-      "package": "spritesheet-js",
-      "ecosystem": "npm",
-      "summary": "Command injection in spritesheet-js",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-33f9-j839-rf8h",
-      "package": "immer",
-      "ecosystem": "npm",
-      "summary": "Prototype Pollution in immer",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-33gc-f8v9-v8hm",
-      "package": "ladder-text-js",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in ladder-text-js",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-33qr-m49q-rxfx",
-      "package": "xrpl",
-      "ecosystem": "npm",
-      "summary": "Compromised xrpl.js versions 4.2.1, 4.2.2, 4.2.3, 4.2.4, and 2.14.2",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-33qr-m49q-rxfx",
       "package": "xrpl",
       "ecosystem": "npm",
@@ -575,38 +151,6 @@
       "versions": [
         "2.14.2"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-33rv-m2gp-mm2r",
-      "package": "safe-flat",
-      "ecosystem": "npm",
-      "summary": "Prototype pollution in safe-flat",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-33vh-7x8q-mg35",
-      "package": "safe-eval",
-      "ecosystem": "npm",
-      "summary": "safe-eval vulnerable to Prototype Pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3486-rvxc-hrrj",
-      "package": "gitblame",
-      "ecosystem": "npm",
-      "summary": "gitblame susceptible to command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-34r7-q49f-h37c",
-      "package": "uglify-js",
-      "ecosystem": "npm",
-      "summary": "Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -663,30 +207,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-34w8-mcwr-vg29",
-      "package": "codeceptjs",
-      "ecosystem": "npm",
-      "summary": "CodeceptJS's incomprehensive sanitation can lead to Command Injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-353r-3v84-9pjj",
-      "package": "nothing-js",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in nothing-js",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-36r8-9qq7-mh43",
-      "package": "we3b",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in we3b",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-377f-vvrc-9wgg",
       "package": "zemen",
       "ecosystem": "npm",
@@ -694,22 +214,6 @@
       "versions": [
         "0.0.5"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-37j7-fg3j-429f",
-      "package": "happy-dom",
-      "ecosystem": "npm",
-      "summary": "Happy DOM: VM Context Escape can lead to Remote Code Execution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-37vc-gwvp-6cgv",
-      "package": "bitcoijns-lib",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bitcoijns-lib",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -723,126 +227,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-38f5-ghc2-fcmv",
-      "package": "cryo",
-      "ecosystem": "npm",
-      "summary": "Code Injection in cryo",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-38hx-3542-8fh3",
-      "package": "electorn",
-      "ecosystem": "npm",
-      "summary": "Malicious code in `electorn`",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-38vq-cjh5-vw7x",
-      "package": "nodes.js",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in nodes.js",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli-server-api",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli-server-api",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-399j-vxmf-hjvr",
-      "package": "@react-native-community/cli-server-api",
-      "ecosystem": "npm",
-      "summary": "@react-native-community/cli has arbitrary OS command injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3c9c-2p65-qvwv",
-      "package": "aurelia-path",
-      "ecosystem": "npm",
-      "summary": "Prototype pollution in aurelia-path",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3ch2-jxxc-v4xf",
-      "package": "@akoskm/create-mcp-server-stdio",
-      "ecosystem": "npm",
-      "summary": "@akoskm/create-mcp-server-stdio is vulnerable to MCP Server Command Injection through `exec` API",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3cjv-4phw-gvvv",
-      "package": "getcookies",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in getcookies",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3cpj-mj3q-82wr",
-      "package": "bs58chek",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bs58chek",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3f97-rj68-2pjf",
-      "package": "buffe2-xor",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffe2-xor",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3fc5-9x9m-vqc4",
-      "package": "express-cart",
-      "ecosystem": "npm",
-      "summary": "Duplicate Advisory: Privilege Escalation in express-cart",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-3fv6-q5xv-fhpw",
       "package": "coffee-project",
       "ecosystem": "npm",
@@ -850,14 +234,6 @@
       "versions": [
         "1.7.5"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3fxp-vwxm-2r5p",
-      "package": "gitlogplus",
-      "ecosystem": "npm",
-      "summary": "Command injection in gitlogplus",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -881,118 +257,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-3gpc-w23c-w59w",
-      "package": "pitboss-ng",
-      "ecosystem": "npm",
-      "summary": "Sandbox Breakout / Arbitrary Code Execution in pitboss-ng",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3gx7-xhv7-5mx3",
-      "package": "eslint-utils",
-      "ecosystem": "npm",
-      "summary": "Arbitrary Code Execution in eslint-utils",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3h99-v4qw-p2h5",
-      "package": "coinpayment",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in coinpayment",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3h9m-9g3g-5wqx",
-      "package": "buffer-xov",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffer-xov",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3hfp-gqgh-xc5g",
-      "package": "@lightdash/cli",
-      "ecosystem": "npm",
-      "summary": "Axios supply chain attack - dependency in @lightdash/cli may resolve to compromised axios versions",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3hjv-c53m-58jj",
-      "package": "flowise",
-      "ecosystem": "npm",
-      "summary": "Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3hjv-c53m-58jj",
-      "package": "flowise-components",
-      "ecosystem": "npm",
-      "summary": "Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3hq6-rmv7-39vh",
-      "package": "op-browser",
-      "ecosystem": "npm",
-      "summary": "Injection in op-browser",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3mhm-jvqj-fvhg",
-      "package": "js-sia3",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in js-sia3",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3pxp-6963-46r9",
-      "package": "pdfinfojs",
-      "ecosystem": "npm",
-      "summary": "Command Injection in pdfinfojs",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3q9x-w53p-jg53",
-      "package": "heroku-addonpool",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in heroku-addonpool",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3r9x-mjrm-2725",
-      "package": "libnested",
-      "ecosystem": "npm",
-      "summary": "Prototype pollution vulnerability in 'libnested'",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3v5x-qjrp-q2hq",
-      "package": "buttercms",
-      "ecosystem": "npm",
-      "summary": "Unrestricted Upload of File with Dangerous Type in ButterCMS",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3w5v-p54c-f74x",
-      "package": "ejs",
-      "ecosystem": "npm",
-      "summary": "ejs is vulnerable to remote code execution due to weak input validation",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-3wh2-2pp3-2823",
       "package": "simple-alipay",
       "ecosystem": "npm",
@@ -1000,14 +264,6 @@
       "versions": [
         "1.0.1"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3wj8-vp9h-rm6m",
-      "package": "total.js",
-      "ecosystem": "npm",
-      "summary": "total.js Remote Code Execution Vulnerability",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -1021,110 +277,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-3x62-x456-q2vm",
-      "package": "git-pull-or-clone",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in git-pull-or-clone",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3xcq-8mjw-h6mx",
-      "package": "@strapi/content-type-builder",
-      "ecosystem": "npm",
-      "summary": "Strapi Vulnerable to SQL Injection in Content Type Builder",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3xcq-8mjw-h6mx",
-      "package": "@strapi/plugin-content-type-builder",
-      "ecosystem": "npm",
-      "summary": "Strapi Vulnerable to SQL Injection in Content Type Builder",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-3xx2-mqjm-hg9x",
-      "package": "@paperclipai/server",
-      "ecosystem": "npm",
-      "summary": "Paperclip: Cross-tenant agent API key IDOR in `/agents/:id/keys` routes allows full victim-company compromise",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-425c-ccf3-3jrr",
-      "package": "slpjs",
-      "ecosystem": "npm",
-      "summary": "Critical severity vulnerability that affects slpjs",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-426h-24vj-qwxf",
-      "package": "npm-programmatic",
-      "ecosystem": "npm",
-      "summary": "Command Injection in npm-programmatic",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-428f-mh7w-6w2x",
-      "package": "pandora-doomsday",
-      "ecosystem": "npm",
-      "summary": "pandora-doomsday is malware",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-435c-qcpm-wjw5",
-      "package": "fs-extar",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in fs-extar",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4363-x42f-xph6",
-      "package": "hw-trnasport-u2f",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in hw-trnasport-u2f",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-43ch-2h55-2vj7",
-      "package": "private-ip",
-      "ecosystem": "npm",
-      "summary": "Server-Side Request Forgery in private-ip",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-43vf-2x6g-p2m5",
-      "package": "browserift",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in browserift",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-44fc-8fm5-q62h",
-      "package": "convict",
-      "ecosystem": "npm",
-      "summary": "Convict has Prototype Pollution via startsWith() function",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-44vr-rwwj-p88h",
-      "package": "shescape",
-      "ecosystem": "npm",
-      "summary": "Shescape vulnerable to insufficient escaping of whitespace",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-45cp-hpc9-8347",
       "package": "css_transform_support",
       "ecosystem": "npm",
@@ -1132,22 +284,6 @@
       "versions": [
         "1.0.2"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-45mx-g85m-wwm3",
-      "package": "obsidian",
-      "ecosystem": "npm",
-      "summary": "Obsidian does not require user confirmation for non-http/https URLs.",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-45w5-pvr8-4rh5",
-      "package": "eslint-fixer",
-      "ecosystem": "npm",
-      "summary": "Command injection in eslint-fixer",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -1161,54 +297,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-462x-c3jw-7vr6",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server vulnerable to remote code execution via MongoDB BSON parser through prototype pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-462x-c3jw-7vr6",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server vulnerable to remote code execution via MongoDB BSON parser through prototype pollution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4662-j96g-mv46",
-      "package": "reduce-css-calc",
-      "ecosystem": "npm",
-      "summary": "Arbitrary Code Injection in reduce-css-calc",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-47wq-cj9q-wpmp",
-      "package": "@paperclipai/server",
-      "ecosystem": "npm",
-      "summary": "Paperclip: Cross-tenant agent API token minting via missing assertCompanyAccess on /api/agents/:id/keys",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-47x8-96vw-5wg6",
-      "package": "vm2",
-      "ecosystem": "npm",
-      "summary": "vm2 Access to Host Object Enables Sandbox Escape",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-487w-pqcm-63hq",
-      "package": "buns",
-      "ecosystem": "npm",
-      "summary": "Command injection in buns",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-48hw-37g6-3gw4",
       "package": "mx-nested-menu",
       "ecosystem": "npm",
@@ -1216,46 +304,6 @@
       "versions": [
         "0.1.30"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-48ww-j4fc-435p",
-      "package": "nodemailer",
-      "ecosystem": "npm",
-      "summary": "Command injection in nodemailer",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4964-cjrr-jg97",
-      "package": "jqeury",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in jqeury",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-49c6-3wr4-8jr4",
-      "package": "malicious-npm-package",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in malicious-npm-package",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-49mg-94fc-2fx6",
-      "package": "npm-git-publish",
-      "ecosystem": "npm",
-      "summary": "Command Injection in npm-git-publish",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4c7m-wxvm-r7gc",
-      "package": "netmask",
-      "ecosystem": "npm",
-      "summary": "Improper parsing of octal bytes in netmask",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -1269,62 +317,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-4cj8-g9cp-v5wr",
-      "package": "blueimp-file-upload",
-      "ecosystem": "npm",
-      "summary": "Unrestricted Upload of File with Dangerous Type in blueimp-file-upload",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4cpg-3vgw-4877",
-      "package": "plist",
-      "ecosystem": "npm",
-      "summary": "Prototype pollution in Plist before 3.0.5 can cause denial of service",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4fqg-89cc-5pv5",
-      "package": "sj-labc",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in sj-labc",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4fr2-j4g9-mppf",
-      "package": "deephas",
-      "ecosystem": "npm",
-      "summary": "Prototype Pollution in deephas",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4g2x-vq5p-5vj6",
-      "package": "@budibase/server",
-      "ecosystem": "npm",
-      "summary": "Budibase affected by VM2 Constructor Escape Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4g7x-7vgq-3j28",
-      "package": "aaptjs",
-      "ecosystem": "npm",
-      "summary": "Vulnerability in list function leads to arbitrary code execution via filePath parameters",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4g88-fppr-53pp",
-      "package": "set-value",
-      "ecosystem": "npm",
-      "summary": "Prototype Pollution in set-value",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-4g88-fppr-53pp",
       "package": "set-value",
       "ecosystem": "npm",
@@ -1332,102 +324,6 @@
       "versions": [
         "3.0.0"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4gfq-6m28-m5mg",
-      "package": "freediskspace",
-      "ecosystem": "npm",
-      "summary": "Improper neutralization of arguments in freediskspace",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4gjv-5jjp-rcgh",
-      "package": "hashbrown-cms",
-      "ecosystem": "npm",
-      "summary": "HashBrown CMS RCE",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4gp3-p7ph-x2jr",
-      "package": "devcert-sanscache",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in devcert-sanscache",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4gpc-rhpj-9443",
-      "package": "@lobehub/chat",
-      "ecosystem": "npm",
-      "summary": "Lobe Chat affected by Cross-Site Scripting(XSS) that can escalate to Remote Code Execution(RCE)",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4h66-vghf-xg5x",
-      "package": "get-npm-package-version",
-      "ecosystem": "npm",
-      "summary": "get-npm-package-version Command Injection vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4hfc-fv33-ph9p",
-      "package": "sj-tw-abc",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in sj-tw-abc",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4hjg-w3ww-38c6",
-      "package": "tiar",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in tiar",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4hm7-73ch-vm59",
-      "package": "buffer-8or",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffer-8or",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4hq8-v42x-9wx3",
-      "package": "bs85check",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bs85check",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4hv7-3q38-97m8",
-      "package": "djv",
-      "ecosystem": "npm",
-      "summary": "Arbitrary code execution in djv",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4j36-39gm-8vq8",
-      "package": "@oneuptime/common",
-      "ecosystem": "npm",
-      "summary": "OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4j46-mp85-mv8c",
-      "package": "rollup-plugin-serve",
-      "ecosystem": "npm",
-      "summary": "Path traversal in rollup-plugin-serve",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -1441,182 +337,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-4j54-mxf6-wxx2",
-      "package": "pomelo-monitor",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in pomelo-monitor",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4jfq-q299-g4cr",
-      "package": "reqquest",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in reqquest",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4jg2-84c2-pj95",
-      "package": "@asyncapi/modelina",
-      "ecosystem": "npm",
-      "summary": "Improper Control of Generation of Code ('Code Injection') in @asyncapi/modelina",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4jj4-m52p-8rx3",
-      "package": "set-object-value",
-      "ecosystem": "npm",
-      "summary": "Prototype pollution in set-object-value",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4jpw-hj22-2xmc",
-      "package": "openclaw",
-      "ecosystem": "npm",
-      "summary": "OpenClaw: Pairing-scoped device tokens could mint `operator.admin` and reach node RCE",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4m3j-h8f2-4xh4",
-      "package": "coinstrig",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in coinstrig",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4m3p-x2hp-2pgx",
-      "package": "bitcroe-lib",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in bitcroe-lib",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4m6q-rxhm-675w",
-      "package": "adb-driver",
-      "ecosystem": "npm",
-      "summary": " OS Command Injection in adb-driver",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4mxg-3p6v-xgq3",
-      "package": "@node-saml/node-saml",
-      "ecosystem": "npm",
-      "summary": "Node-SAML SAML Signature Verification Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4mxg-3p6v-xgq3",
-      "package": "passport-saml",
-      "ecosystem": "npm",
-      "summary": "Node-SAML SAML Signature Verification Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4mxg-3p6v-xgq3",
-      "package": "@node-saml/passport-saml",
-      "ecosystem": "npm",
-      "summary": "Node-SAML SAML Signature Verification Vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4pmg-jgm5-3jg6",
-      "package": "erquest",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in erquest",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4q3h-vp4r-prv2",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server: Account takeover via JWT algorithm confusion in Google auth adapter",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4q3h-vp4r-prv2",
-      "package": "parse-server",
-      "ecosystem": "npm",
-      "summary": "Parse Server: Account takeover via JWT algorithm confusion in Google auth adapter",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4q97-fh3f-j294",
-      "package": "tiny-conf",
-      "ecosystem": "npm",
-      "summary": "Prototype Pollution in tiny-conf",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4qhx-g9wp-g9m6",
-      "package": "squel",
-      "ecosystem": "npm",
-      "summary": "Failure to sanitize quotes which can lead to sql injection in squel",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4qqc-mp5f-ccv4",
-      "package": "bestzip",
-      "ecosystem": "npm",
-      "summary": "Command Injection in bestzip",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4qwq-q4pr-rr7r",
-      "package": "aaptjs",
-      "ecosystem": "npm",
-      "summary": "Vulnerability in packageCmd function leads to arbitrary code execution via filePath parameters",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4r4r-4jp4-wwf9",
-      "package": "@frangoteam/fuxa",
-      "ecosystem": "npm",
-      "summary": "FUXA has JWT Authentication Bypass via HTTP Referer header spoofing",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4rch-2fh8-94vw",
-      "package": "mysql2",
-      "ecosystem": "npm",
-      "summary": "MySQL2 for Node Arbitrary Code Injection",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4rj2-gpmh-qq5x",
-      "package": "openclaw",
-      "ecosystem": "npm",
-      "summary": "OpenClaw has an inbound allowlist policy bypass in voice-call extension (empty caller ID + suffix matching)",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4rv9-5vc4-88cg",
-      "package": "node-ps",
-      "ecosystem": "npm",
-      "summary": "Command injection in node-ps",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-4rx9-58m7-gr8w",
       "package": "css_transform_step",
       "ecosystem": "npm",
@@ -1624,158 +344,6 @@
       "versions": [
         "1.0.6"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4v9w-pvwr-38h3",
-      "package": "strong-nginx-controller",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in strong-nginx-controller",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4vmm-mhcq-4x9j",
-      "package": "constantinople",
-      "ecosystem": "npm",
-      "summary": "Sandbox Bypass Leading to Arbitrary Code Execution in constantinople",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4w2j-2rg4-5mjw",
-      "package": "vm2",
-      "ecosystem": "npm",
-      "summary": "vm2 vulnerable to Arbitrary Code Execution",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4w88-rjj3-x7wp",
-      "package": "electron",
-      "ecosystem": "npm",
-      "summary": "Chromium Remote Code Execution in electron",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4w88-rjj3-x7wp",
-      "package": "electron",
-      "ecosystem": "npm",
-      "summary": "Chromium Remote Code Execution in electron",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4w97-57v2-3w44",
-      "package": "slp-validate",
-      "ecosystem": "npm",
-      "summary": "False-negative validation results in MINT transactions with invalid baton",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4wcm-7hjf-6xw5",
-      "package": "interactive-git-checkout",
-      "ecosystem": "npm",
-      "summary": "interactive-git-checkout has a Command Injection vulnerability",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4wcx-c9c4-89p2",
-      "package": "react-datepicker-plus",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in react-datepicker-plus",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4wm9-3qmv-gvxj",
-      "package": "jsonic",
-      "ecosystem": "npm",
-      "summary": "jsonic was discovered to contain a prototype pollution via the function empty.",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4wv4-mgfq-598v",
-      "package": "nobelprizeparser",
-      "ecosystem": "npm",
-      "summary": "Code injection in nobelprizeparser",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4x6x-782q-jfc4",
-      "package": "node-wifi",
-      "ecosystem": "npm",
-      "summary": "Command Injection in node-wifi",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4x7w-frcq-v4m3",
-      "package": "@wturyn/swagger-injector",
-      "ecosystem": "npm",
-      "summary": "Path Traversal in @wturyn/swagger-injector",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4xg9-g7qj-jhg4",
-      "package": "comander",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in comander",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4xgp-xrg3-c73w",
-      "package": "commqnder",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in commqnder",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4xrw-wvmq-8jmh",
-      "package": "node-key-sender",
-      "ecosystem": "npm",
-      "summary": "OS Command Injection in node-key-sender",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-52c9-458g-whrf",
-      "package": "js-3ha3",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in js-3ha3",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-52vj-mr2j-f8jh",
-      "package": "formio",
-      "ecosystem": "npm",
-      "summary": "Server-Side Template Injection in formio",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-5327-gfq5-8f4m",
-      "package": "buffer-xmr",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffer-xmr",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-536f-268f-6gxc",
-      "package": "buffermxor",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in buffermxor",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -7184,33 +5752,9 @@
       "package": "ipsilon",
       "ecosystem": "PyPI",
       "summary": "Session Fixation in ipsilon",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-376m-3rm2-9jm6",
-      "package": "ipsilon",
-      "ecosystem": "PyPI",
-      "summary": "Session Fixation in ipsilon",
       "versions": [
         "1.2.0"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-376m-3rm2-9jm6",
-      "package": "ipsilon",
-      "ecosystem": "PyPI",
-      "summary": "Session Fixation in ipsilon",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-376m-3rm2-9jm6",
-      "package": "ipsilon",
-      "ecosystem": "PyPI",
-      "summary": "Session Fixation in ipsilon",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -9107,14 +7651,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-3vj4-cvjp-482h",
-      "package": "neutron",
-      "ecosystem": "PyPI",
-      "summary": "OpenStack Neutron allows remote attackers to bypass an intended ICMPv6-spoofing protection mechanism",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-3xg5-6c3j-vp8x",
       "package": "quokka",
       "ecosystem": "PyPI",
@@ -10590,14 +9126,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-4g82-3jcr-q52w",
-      "package": "ctx",
-      "ecosystem": "PyPI",
-      "summary": "Malware in ctx",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-4gxj-5mmr-7pxq",
       "package": "ait-core",
       "ecosystem": "PyPI",
@@ -10973,14 +9501,6 @@
       "severity": "CRITICAL"
     },
     {
-      "id": "GHSA-4q2w-rw7m-xqw6",
-      "package": "nnabla",
-      "ecosystem": "PyPI",
-      "summary": "Sony Neural Network Libraries reliance on untrusted inputs prior to v1.0.10",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
       "id": "GHSA-4qcx-jx49-6qrh",
       "package": "aim",
       "ecosystem": "PyPI",
@@ -11327,22 +9847,6 @@
         "2.3.0",
         "2.3.1"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4vq7-8699-4xgc",
-      "package": "wmagent",
-      "ecosystem": "PyPI",
-      "summary": "WMAgent arbitrary code execution via a crafted dbs-client package",
-      "versions": [],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4vq7-8699-4xgc",
-      "package": "reqmgr2",
-      "ecosystem": "PyPI",
-      "summary": "WMAgent arbitrary code execution via a crafted dbs-client package",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
@@ -13750,14 +12254,6 @@
         "7.5.5",
         "7.5.6"
       ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-5mg7-485q-xm76",
-      "package": "litellm",
-      "ecosystem": "PyPI",
-      "summary": "Two LiteLLM versions published containing credential harvesting malware",
-      "versions": [],
       "severity": "CRITICAL"
     },
     {
