@@ -62,6 +62,9 @@ async function generateThreatFeed() {
     }
   }
 
+  // Include entries in the catalog with severity "CRITICAL"
+  catalog.entries = catalog.entries.filter(entry => entry.severity === "CRITICAL");
+
   // 4. Write the final transformed JSON to disk
   fs.writeFileSync('catalog.json', JSON.stringify(catalog, null, 2));
   console.log(`\nSuccess! Generated catalog.json with ${catalog.entries.length} threat entries.`);
