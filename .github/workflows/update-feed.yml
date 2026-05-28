@@ -2,8 +2,8 @@ name: Nightly Threat Feed Update
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every night at midnight UTC
-  workflow_dispatch: # Gives you a manual "Run" button in the GitHub UI
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
 
 jobs:
   build-and-deploy:
@@ -17,6 +17,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
 
       - name: Run Fetch Script
         run: node generate-feed.js
@@ -25,7 +29,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add catalog.json
-          # Only commit if there are actually new vulnerabilities
+          git add catalog.json package.json package-lock.json
           git commit -m "Automated update: Threat feed [skip ci]" || exit 0
           git push

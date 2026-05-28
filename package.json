@@ -1,0 +1,24 @@
+{
+  "name": "pkgwatch-threat-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-dtya/pkgwatch-threat-feed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-dtya/pkgwatch-threat-feed/issues"
+  },
+  "homepage": "https://github.com/a-dtya/pkgwatch-threat-feed#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "axios": "^1.16.1"
+  }
+}
