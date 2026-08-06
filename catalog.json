@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "last_updated": "2026-08-05T02:25:52.170Z",
+  "last_updated": "2026-08-06T02:28:03.629Z",
   "entries": [
     {
       "id": "GHSA-27f5-xjrr-q9ff",
@@ -333,16 +333,6 @@
       "summary": "Malicious Package in slush-fullstack-framework",
       "versions": [
         "0.9.2"
-      ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-4rx9-58m7-gr8w",
-      "package": "css_transform_step",
-      "ecosystem": "npm",
-      "summary": "Malicious Package in css_transform_step",
-      "versions": [
-        "1.0.6"
       ],
       "severity": "CRITICAL"
     },
