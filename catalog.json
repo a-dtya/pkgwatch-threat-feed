@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "last_updated": "2026-10-01T04:19:56.423Z",
+  "last_updated": "2026-10-02T04:12:48.479Z",
   "entries": [
     {
       "id": "GHSA-27f5-xjrr-q9ff",
@@ -223,6 +223,16 @@
       "summary": "Prototype Pollution in deep.assign",
       "versions": [
         "0.0.0-alpha.0"
+      ],
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GHSA-3f84-vwv5-r42g",
+      "package": "vm2",
+      "ecosystem": "npm",
+      "summary": "Duplicate Advisory: vm2: GHSA-m283-3h24-438v fix bypass leads to host RCE via call/apply indirection",
+      "versions": [
+        "3.11.6"
       ],
       "severity": "CRITICAL"
     },
