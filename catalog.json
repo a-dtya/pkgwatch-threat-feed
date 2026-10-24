@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "last_updated": "2026-10-23T03:30:28.518Z",
+  "last_updated": "2026-10-24T03:24:53.320Z",
   "entries": [
     {
       "id": "GHSA-27f5-xjrr-q9ff",
@@ -16944,88 +16944,6 @@
         "0.4.0rc4",
         "0.4.0rc5",
         "0.4.0rc6"
-      ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-538v-3wq9-4h3r",
-      "package": "pyfory",
-      "ecosystem": "PyPI",
-      "summary": "Apache Pyfory python is vulnerable to deserialization of untrusted data",
-      "versions": [
-        "0.12.0",
-        "0.12.1",
-        "0.12.2"
-      ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-538v-3wq9-4h3r",
-      "package": "pyfury",
-      "ecosystem": "PyPI",
-      "summary": "Apache Pyfory python is vulnerable to deserialization of untrusted data",
-      "versions": [
-        "0.10.2",
-        "0.10.2rc1",
-        "0.10.3",
-        "0.2.0",
-        "0.2.0a1",
-        "0.2.1",
-        "0.2.1a1",
-        "0.3.0",
-        "0.3.0a1",
-        "0.3.0a2",
-        "0.3.0a3",
-        "0.3.1",
-        "0.4.0",
-        "0.4.1"
-      ],
-      "severity": "CRITICAL"
-    },
-    {
-      "id": "GHSA-53q9-r3pm-6pq6",
-      "package": "torch",
-      "ecosystem": "PyPI",
-      "summary": "PyTorch: `torch.load` with `weights_only=True` leads to remote code execution",
-      "versions": [
-        "1.0.0",
-        "1.0.1",
-        "1.1.0",
-        "1.10.0",
-        "1.10.1",
-        "1.10.2",
-        "1.11.0",
-        "1.12.0",
-        "1.12.1",
-        "1.13.0",
-        "1.13.1",
-        "1.2.0",
-        "1.3.0",
-        "1.3.1",
-        "1.4.0",
-        "1.5.0",
-        "1.5.1",
-        "1.6.0",
-        "1.7.0",
-        "1.7.1",
-        "1.8.0",
-        "1.8.1",
-        "1.9.0",
-        "1.9.1",
-        "2.0.0",
-        "2.0.1",
-        "2.1.0",
-        "2.1.1",
-        "2.1.2",
-        "2.2.0",
-        "2.2.1",
-        "2.2.2",
-        "2.3.0",
-        "2.3.1",
-        "2.4.0",
-        "2.4.1",
-        "2.5.0",
-        "2.5.1"
       ],
       "severity": "CRITICAL"
     }
